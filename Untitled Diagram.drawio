@@ -1,1 +1,79 @@
-<mxfile host="app.diagrams.net" modified="2022-03-23T07:09:40.073Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.83 Safari/537.36" version="17.1.5" etag="N69kfuUt_FB5BnwMdf3I" type="github"><diagram id="aPhBDFnZvIHsbY2EA7b8">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-03-23T07:27:48.567Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.83 Safari/537.36" etag="kJ44vogEPH1ZKL10WxuX" version="17.1.5" type="github">
+  <diagram id="aPhBDFnZvIHsbY2EA7b8" name="Page-1">
+    <mxGraphModel dx="1162" dy="708" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="AtUzcaGQiqD4TJP5C5E9-1" value="ログイン画面" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="160" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="AtUzcaGQiqD4TJP5C5E9-2" value="ログインid入力欄" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="AtUzcaGQiqD4TJP5C5E9-1">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AtUzcaGQiqD4TJP5C5E9-3" value="ログインボタン" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="AtUzcaGQiqD4TJP5C5E9-1">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AtUzcaGQiqD4TJP5C5E9-6" value="ホーム画面" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="160" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="AtUzcaGQiqD4TJP5C5E9-7" value="楽曲一覧" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="AtUzcaGQiqD4TJP5C5E9-6">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AtUzcaGQiqD4TJP5C5E9-8" value="楽曲アップロードボタン" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="AtUzcaGQiqD4TJP5C5E9-6">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AtUzcaGQiqD4TJP5C5E9-9" value="プロフィールボタン" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="AtUzcaGQiqD4TJP5C5E9-6">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AtUzcaGQiqD4TJP5C5E9-10" value="プロフィール画面" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="160" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="AtUzcaGQiqD4TJP5C5E9-11" value="ユーザー情報（契約情報）" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="AtUzcaGQiqD4TJP5C5E9-10">
+          <mxGeometry y="30" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AtUzcaGQiqD4TJP5C5E9-13" value="決済情報入力欄" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="AtUzcaGQiqD4TJP5C5E9-10">
+          <mxGeometry y="60" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AtUzcaGQiqD4TJP5C5E9-14" value="決済ボタン" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="AtUzcaGQiqD4TJP5C5E9-10">
+          <mxGeometry y="90" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AtUzcaGQiqD4TJP5C5E9-15" value="楽曲アップロード画面" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="350" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="AtUzcaGQiqD4TJP5C5E9-16" value="ドラッグ（選択）入力欄" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="AtUzcaGQiqD4TJP5C5E9-15">
+          <mxGeometry y="30" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AtUzcaGQiqD4TJP5C5E9-17" value="アップロードボタン" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="AtUzcaGQiqD4TJP5C5E9-15">
+          <mxGeometry y="60" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AtUzcaGQiqD4TJP5C5E9-19" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.143;entryY=0.167;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="AtUzcaGQiqD4TJP5C5E9-3" target="AtUzcaGQiqD4TJP5C5E9-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="240" as="sourcePoint" />
+            <mxPoint x="300" y="190" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="300" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AtUzcaGQiqD4TJP5C5E9-20" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="AtUzcaGQiqD4TJP5C5E9-8" target="AtUzcaGQiqD4TJP5C5E9-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="430" as="sourcePoint" />
+            <mxPoint x="400" y="380" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="260" y="235" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AtUzcaGQiqD4TJP5C5E9-21" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.117;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="AtUzcaGQiqD4TJP5C5E9-9" target="AtUzcaGQiqD4TJP5C5E9-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="430" as="sourcePoint" />
+            <mxPoint x="530" y="180" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="500" y="265" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
